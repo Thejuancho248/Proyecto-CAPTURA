@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Dosis;
+    src: url(../Elementos/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Elementos/Roboto/Roboto-Medium.ttf);
+}
+
+
+.head{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
+    margin: 0%;
+    border-bottom: black solid thin;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.navbar{
+font-family: Dosis;
+font-size: 24px;
+font-weight: 500;
+}
+
+.nav-item{
+    background-color: #00566a;
+    margin: 0.3rem;
+    transition: .3s;
+}
+
+.nav-item:hover{
+    background-color: #0089a7;
+    transform: scale(0.9);
+}
+
+.nav-item:active{
+    background-color: #0088a78c;
+    transform: scale(1.2);
+}
+
+.menu{
+    z-index: 1000;
+}
+
+.txt-somos{
+    background-color: #0088a700;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.titulo{
+    font-family: Roboto;
+    font-size: 55px;
+    color: #00566a;
+}
+.file-mp4{
+    width: 50%;
+    
+}
+.texto{
+    font-family: Dosis;
+    font-size: 1.3rem;
+}
+
+.img-refer{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+hr{
+   opacity: 100;
+   border-width: thin;
+}
+
+.txt-m-v{
+    font-size: 19px;
+    background-color: #0088a700;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.buttons{
+background-color: #00566a;
+color: white;
+width: 33%;
+height: 3rem;
+font-size: 30px;
+font-family: Roboto;
+}
+
+.buttons:hover{
+    background-color: #04b3db;
+}
+
+.mision-vision{
+    background-color: #00566a;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.m-icon{
+    width: 13rem;
+}
+
+.v-icon{
+    width: 15.2rem;
+}
+
+
+.titulo-2{
+    font-family: Roboto;
+    color: #00566a;
+    width: fit-content;
+}
+
+
+.cards:hover{
+    background-color: gray;
+    
+}
+.retrato-darius{
+    width: 19rem;
+    transition: .3s;
+}
+
+.retrato-darius-2{
+    width: 19rem;
+}
+
+.retrato-darius:hover{
+    background-color: #04b3db;
+    border-radius: 1rem;
+    transform: scale(0.9);
+}
+
+.modal-title{
+    font-family: Roboto;
+}
+
+
+.retrato-henao{
+    width: 19rem;
+    transition: .3s;
+}
+
+.retrato-henao-2{
+    width: 19rem;
+}
+
+.retrato-henao:hover{
+    background-color: #04b3db;
+    border-radius: 1rem;
+    transform: scale(0.9);
+}
+
+.retrato-cami{
+    width: 16rem;
+    transition: .3s;
+}
+
+.retrato-cami-2{
+    width: 16rem;
+}
+
+.retrato-cami:hover{
+    background-color: #04b3db;
+    border-radius: 1rem;
+    transform: scale(0.9);
+}
+
+
+.names{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+}
+
+.crashed{
+    width: 70%;
+    border-radius: 2rem;
+}
+
+.text-rellen{
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #0089a7;
+    color: white;
+    border-radius: 1rem;
+}
+
+.names:hover{
+    color: #0089a7;
+}
+
+.modal-header{
+    background-color: #0089a7;
+    color: white;
+}
+
+.modal-body{
+    background-color: gray;
+    font-family: Dosis;
+}
+
+.header-personajes{
+    background-color: gray;
+}
+.body-personajes{
+    background-color: rgb(0, 119, 128);
+    font-family: Dosis;
+}
+
+.card-txt{
+    color: white;
+    font-size: 20px;
+}
+
+.nosotros{
+    background-color: rgb(211, 211, 211);
+}
+
+.nosotros-personajes{
+    background-color: white;
+}
+
+
+.robot{
+    width: 12.5rem;
+    transition: 0.3s;
+}
+
+.robot-2{
+    width: 12.5rem;
+}
+
+.robot:hover{
+    background-color: #04b3db;
+    border-radius: 1rem;
+    transform: scale(0.9);
+}
+
+.jhon{
+    width: 10rem;
+    transition: 0.3s;
+}
+
+.jhon-2{
+    width: 10rem;
+}
+
+.jhon:hover{
+    background-color: #04b3db;
+    border-radius: 1rem;
+    transform: scale(0.9);
+}
+
+
+.pie{
+    background-color: white;
+    border-top: black solid thin;
+}
+.logo3{
+    width: 10rem;
+    margin: 1%;
+}
+  
+.menu-item-footer{
+    margin: 1%;
+    background-color: #00566a;
+    width: 120%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2rem 2rem 2rem 2rem;
+    font-family: Dosis;
+    color: white;
+}
+
+.menu-item-footer:hover{
+    color: rgb(0, 251, 255);
+    text-decoration: underline white;
+   
+}
+
+.menu-item-footer:active{
+    color: rgb(0, 119, 255);
+    text-decoration: underline rgb(0, 251, 255);
+   
+}
+
+h4{
+   font-family: Roboto;
+}
+
+.icons{
+    width: 3rem;
+    transition: all 0.3s ease;
+    margin: 1%;
+}
+
+.icons:hover{
+    transform: scale(1.2);
+}
+  
